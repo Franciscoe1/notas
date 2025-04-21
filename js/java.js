@@ -19,7 +19,7 @@ function verificarNotas() {
     if (notas.every(nota => nota >= 7)) {
       console.log("¡Pasa de año directamente!");
     } else if (promedio >= 3.5) {
-      console.log("Se queda en suspenso.");
+      console.log("Se queda a supleetorios.");
     } else {
       console.log("Pierde el semestre.");
     }
